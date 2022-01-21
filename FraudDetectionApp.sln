@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "FraudDetectionApp", "FraudDetectionApp\FraudDetectionApp.njsproj", "{9DD57477-A211-495F-A798-8E006A1842DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DD57477-A211-495F-A798-8E006A1842DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD57477-A211-495F-A798-8E006A1842DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD57477-A211-495F-A798-8E006A1842DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD57477-A211-495F-A798-8E006A1842DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94DD6498-8212-4EF0-8702-026C0869C4C2}
+	EndGlobalSection
+EndGlobal

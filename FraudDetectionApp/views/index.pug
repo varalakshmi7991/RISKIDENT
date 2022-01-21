@@ -1,0 +1,30 @@
+head
+  meta(charset='utf-8')
+  title #{title}
+  link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css')
+
+  body
+    .modal-dialog
+        .modal-content
+          // Modal Header
+          .modal-header
+            button.close(type="button", data-dismiss="modal")
+              span(aria-hidden="true") ×
+              span.sr-only Close
+            h4#myModalLabel.modal-title
+              | #{title}
+          // Modal Body
+          .modal-body
+            form(role='form' method='GET' action='/transactions')
+              div.form-group
+                label(for='transactionId') Transaction Id:
+                input#transactionId.form-control(type='text', placeholder='transactionId' name='transactionId')
+              div.form-group
+                label(for='confidenceLevel') Confidence Level:
+                input#confidenceLevel.form-control(type='text', placeholder='confidenceLevel' name='confidenceLevel')
+              button.btn.btn-primary(type="submit", name="") Fetch Transactions
+              button.btn.btn-default(type="button", data-dismiss="modal")
+                | Close
+          // Modal Footer
+          .modal-footer
+            h4 footer
