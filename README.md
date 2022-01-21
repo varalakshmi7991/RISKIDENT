@@ -8,7 +8,7 @@ This application is hosted on Azure. Access the deployed app using the below URL
 
 https://recruitment@riskident.com 
 
-**Important Node: The above URL will redirect to risk ident official website. This issue might be because of the Risk Ident's App gateway redirecting any requests
+**Important Note: The above URL will redirect to risk ident official website. This issue might be because of the Risk Ident's App gateway redirecting any requests
 containing the domain as @riskident to actual app rather than deployed one!!).**
 
 So better use the below one.
