@@ -1,6 +1,7 @@
 **FraudDetectionApp helps fraud officers to detect whether the particular transaction and its connected transactions are fraudulant or not. If found to be fraudulant, then they can stop delivery or change payment method.**
 
 FraudDetectionApp is written in typescript with runtime node.js using visual studio nodejs-typescript webapp template.
+For basic views - PUG is used with very basic CSS properties.
 Currently it exposes basic GET 'API' to get the all the transactions related to specified transactionId and ConfidenceLevel.
 
 This application is hosted on Azure. Access the deployed app using the below URL.
